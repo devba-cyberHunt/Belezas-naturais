@@ -1,0 +1,195 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    transition: .3s;
+    font-family: "Noto Sans", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image:linear-gradient(#e1e5eb, #40a9dd);
+}
+header{
+    background: linear-gradient(to right, #200175, #6e04ac);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 110px;
+    margin-bottom: 15px;
+}
+header img{
+    display: inline;
+    padding: 25px;
+   align-content: center;
+}
+header #logo{
+    width: 67px;
+    margin: 10px;
+    float: right;
+    border-radius: 15px 4px;
+}
+header nav #menu{
+    background-color: rgb(7, 7, 211,0.8);
+    width: 180px;
+    margin-left: 18px;
+    border-radius: 15px 0px;
+    transition: .5s;
+    padding: 0;
+    float: left;
+    display: block;   
+}
+
+header nav #menu li{
+    list-style-type: none;
+    text-align: justify;
+    padding: 3px;
+    width: 180px;
+    margin-bottom: 5px;
+}
+header nav #menu li a{
+    text-decoration: none;
+    color: #02f511;
+    font-size: 1rem;
+    font-family: "Noto Sans JP", sans-serif;
+     font-weight: 800;
+    padding-left: 15px;
+    padding-right: 15px;
+   
+    
+}
+header nav #menu li :hover{
+    color: #6e04ac;
+    background-color: #02f511;
+    border-radius: 15px 0px;
+}
+header nav #menu li a :hover{
+    color: #6e04ac;
+    background-color: #02f511;
+    border-radius: 15px 0px;
+}
+
+header nav:hover{
+    padding: 15px;
+}
+.main-center{
+    color: #42ff4f;
+    font-size: 2.5rem;
+    margin-top: 45px;
+    padding: 15px 5px;
+    margin-bottom: 65px;
+    text-align: center;
+    transition: .6s;
+    animation: normal;
+}
+.main-center h1{
+    text-shadow: 5px 5px 3px #6004a2;
+}
+
+iframe{
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-left: 230px;
+    box-shadow: 10px 10px 5px 0px rgba(27, 27, 27, 0.75);
+ }
+ 
+.main-p{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #200175;
+    margin-top: 26px;
+}
+
+.container-main p{
+    text-align: center;
+    color: #6004a2;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 25px;
+}
+.container-main img{
+   margin-left: 25px;
+    width: 488px;
+    box-shadow: 10px 10px 5px 0px rgba(27, 27, 27, 0.75);
+}
+footer{
+    height: 200px;
+    background-color: #6e04ac;
+    margin-top: 35px;
+}
+footer img{
+    width: 160px;
+    background-size: cover;
+    float: right;
+    border-radius: 15px;
+}
+footer p{
+    margin: 15px;
+   color: #40a9dd; 
+   font-weight: 400;
+    font-size: 1.3rem;
+    text-align: left;
+    box-sizing: border-box;
+    text-shadow: 2px 0px #200175;
+    margin-left: 34px;
+   
+
+}
+.paralax{
+   background-color: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    background-image: url('/assets/imgs/fundo\ tokyo.gif');  
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(60%); /* Reduz o brilho para 50% */
+}
+.paralax2{
+    background-color: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+     background-image: url('/assets/imgs/kyoto.gif');  
+     height: 500px;
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     filter: brightness(60%); /* Reduz o brilho para 50% */
+ }
+ .paralax3{
+    background-color: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+     background-image: url('/assets/imgs/osaka.gif');  
+     height: 500px;
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     filter: brightness(60%); /* Reduz o brilho para 50% */
+ }
+ .paralax4{
+    background-color: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+     background-image: url('/assets/imgs/monte.gif');  
+     height: 500px;
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     filter: brightness(60%); /* Reduz o brilho para 50% */
+ }
+ .paralax5{
+    background-color: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+     background-image: url('/assets/imgs/akibara.gif');  
+     height: 500px;
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     filter: brightness(60%); /* Reduz o brilho para 50% */
+ }
+
+          
